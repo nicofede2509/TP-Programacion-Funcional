@@ -123,6 +123,9 @@ public class Main {
         System.out.println("El promedio por categoria es de:");
         System.out.println("\t" + precioPromedioPorCategoria + "\n");
 
+        System.out.println("===================================================================================================");
+        System.out.println("Caso Práctico 3:\n");
+
         List<Libro> listaLibros = Arrays.asList(
                 Libro.builder()
                         .titulo("El Aleph")
@@ -182,6 +185,9 @@ public class Main {
                 .max(Comparator.comparing(Libro::getPrecio));
         System.out.println("\nEl libro mas caro es: ");
         System.out.println(libroMasCaro + "\n");
+
+        System.out.println("===================================================================================================");
+        System.out.println("Caso Práctico 4:\n");
 
         List<Empleado> listaEmpleados = Arrays.asList(
                 Empleado.builder()
